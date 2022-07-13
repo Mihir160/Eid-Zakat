@@ -1,6 +1,9 @@
 body{
     margin: 0;
 }
+p{
+    font-size: 18px;
+}
 .headerimg {
     display: flex;
     height:699.79px;
@@ -57,7 +60,110 @@ body{
     padding: 10px;
 }
 .video-content2 img{
-    width: 600px;
+    width: 560px;
     height: 400px;
-   margin-right: 60px;
+    margin-right: 60px;
+}
+.lives-depend{
+    padding-top: 60px;
+}
+.lives-content{
+    text-align: center;
+    font-size: 20px;
+}
+
+.help{
+    padding-top: 60px;
+}
+.direct-help{
+    display: flex;
+    justify-content: center;
+}
+.help1{
+    display: flex;
+    background-color: rgba(250, 126, 126, 0.2);
+    padding: 20px 30px;
+    margin: 0 20px;
+    width: 290px;
+    height: 230px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.help-heading{
+    
+    padding-left: 30px;
+}
+.help-img{
+    padding-top: 27px;
+}
+
+.img{
+    
+    padding-top: 60px;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.img1 > div{
+    margin: 10px;
+    padding: 20px;
+}
+.hand-of-charity{
+    padding-top: 60px;
+}
+.hereafter{
+    text-align: center;
+    font-size: 20px;
+}
+.zakat-fund{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+   
+}
+.donate img{
+    width: 100%;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+.donate{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 25%;
+    height: 70vh;
+    border-radius: 10px;
+   
+}
+.zakat-fund > div{
+    margin: 15px;
+    
+}
+.container{
+    padding-left: 15px;
+}
+.container a{
+    font-size: 20px;
+    color: red;
+}
+.footer{
+    padding-top: 100px;
+}
+.footer1{
+    padding-top: 20px;
+    background-color: black;
+    height: 150px;
+}
+.footer-content{
+text-align: center;
+
+
+}
+.footer-content h1{
+    font-style: oblique;
+    color: red;
+}
+.footer-content p{
+    color: white;
 }
