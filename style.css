@@ -8,11 +8,9 @@ p{
     display: flex;
     height:699.79px;
     width: 1550px;
-    background-image: url(img/img1.png);
+    background-image: linear-gradient(to right, rgba(26, 26, 26,1),rgba(247, 247, 247, 0)),url(img/Rectangle\ 1.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    
-    
+    background-size: cover;   
 }
 .header-content{
     color:white;
@@ -49,9 +47,11 @@ p{
 .content{
  
     font-size: 20px;
+    padding-top: 5%;
 }
 .video-content iframe{
     margin-left: 60px;
+    border-radius: 10px;
 }
 
 .mid-content2{
@@ -60,9 +60,10 @@ p{
     padding: 10px;
 }
 .video-content2 img{
-    width: 560px;
-    height: 400px;
+    width: 456px;
+    height: 477px;
     margin-right: 60px;
+    border-radius: 10px;
 }
 .lives-depend{
     padding-top: 60px;
@@ -84,8 +85,8 @@ p{
     background-color: rgba(250, 126, 126, 0.2);
     padding: 20px 30px;
     margin: 0 20px;
-    width: 290px;
-    height: 230px;
+    width: 461px;
+    height: 200px;
     font-size: 20px;
     border-radius: 8px;
 }
@@ -105,11 +106,14 @@ p{
     display: flex;
     justify-content: center;
     
+    
 
 }
+
 .img1 > div{
     margin: 10px;
     padding: 20px;
+   
 }
 .hand-of-charity{
     padding-top: 60px;
@@ -132,7 +136,7 @@ p{
 .donate{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 25%;
-    height: 70vh;
+    height: 60vh;
     border-radius: 10px;
    
 }
